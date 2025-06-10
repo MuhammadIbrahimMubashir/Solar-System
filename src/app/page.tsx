@@ -10,8 +10,8 @@ const planetsData = [
   { name: "Neptune", distance: 65, size: 2.5, speed: 0.0010 },
   { name: "Earth", distance: 20, size: 2, speed: 0.01 },
   { name: "Venus", distance: 15, size: 1.5, speed: 0.015 },
-  { name: "Mars", distance: 25, size: 1, speed: 0.008 },
-  { name: "Mercury", distance: 10, size: 0.89, speed: 0.04 },
+  { name: "Mars", distance: 25, size: 1.25, speed: 0.008 },
+  { name: "Mercury", distance: 10, size: 1, speed: 0.04 },
 ];
 
 type PlanetSpeeds = { [key: string]: number };
