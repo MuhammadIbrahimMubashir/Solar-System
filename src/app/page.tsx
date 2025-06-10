@@ -40,7 +40,7 @@ export default function SolarSystem() {
       0.1,
       1000
     );
-    camera.position.set(125, 80, 100);
+    camera.position.set(110, 100, 150);
     camera.lookAt(0, 0, 0);
 
     const renderer = new THREE.WebGLRenderer({ antialias: true });
